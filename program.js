@@ -14,7 +14,7 @@ else if(request.url=='/tr'){
 	response.end();
 }
 else if(request.url=="/"){
-	response.write("Lutfen dil seciniz,url nize ekleyiniz,please insert the url for your language");
+	response.write("/tr ya da /eng seceneklerini deneyiniz");
 	response.end();
 }
 }).listen(8081);
