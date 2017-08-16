@@ -1,7 +1,7 @@
 var http = require("http");
 
 http.createServer(function(request , response){
-// send the http heade
+// send the http header
 //http status:200 : ok
 // content type: text/plain
 
